@@ -7,11 +7,13 @@ There are 2 heuristics for Greedy and A* algorithms. The first one evaluates sta
 
 ## Input
 
-The initial state of puzzle would be a list like below:
+First n should be entered and then the initial state of puzzle would be a list of numbers from 0 to (n*n)-1. An example of 8-puzzle with n = 3 is:
 
 ```
  initial_state = [1, 8, 2, 0, 4, 3, 7, 6, 5]
  ```
+ 
+ Note that if you want to work with n > 3, goal should be changed in State class.
  
  ## Output
  
